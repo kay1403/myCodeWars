@@ -1,8 +1,8 @@
 const off =(n)=>{
   let rst=[];
-  for (let i=0; i<n.length; i++){
+  for (let i=0; i<n; i++){
     const rst=Math.sqrt(i);
-    if(rt%1!==0){
+    if(rt%1===0){
       rst.push(i);
     }
   }
